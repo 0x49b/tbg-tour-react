@@ -5,6 +5,7 @@
   },
   "hosting": {
     "public": "build",
+    "site": "trombongos-tour-795ee",
     "ignore": [
       "firebase.json",
       "**/.*",

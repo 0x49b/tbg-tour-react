@@ -1,11 +1,15 @@
 import React from 'react'
 import './pageheaderfooter.css'
 
-function PageHeader() {
+const PageHeader = ({ currentSaison }) => {
   return (
-    <div className='page-header-container'>
-        <div className='page-header-title'>Trombongos Tour 2022/2023</div>
-    </div>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item text-light">Trombongos Tour {currentSaison}</li>
+        </ul>
+      </div>
+    </nav>
   )
 }
-export default PageHeader;
+export default PageHeader

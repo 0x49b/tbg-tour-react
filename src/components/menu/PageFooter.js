@@ -1,12 +1,17 @@
-import React from "react";
+import React from 'react'
 import './pageheaderfooter.css'
 
 const PageFooter = () => {
-    return(
-        <div className="page-footer-container">
-            <div className="page-footer-text">&copy; 2023 Trombongos</div>
-        </div>
-    )
+
+  return (
+    <nav className="navbar navbar-dark bg-dark fixed-bottom">
+      <div className="container">
+        <ul className="nav navbar-nav mx-auto text-center">
+          <li class="nav-item footer-brand text-light">&copy; {new Date().getFullYear()} Trombongos 🎉</li>
+        </ul>
+      </div>
+    </nav>
+  )
 }
 
-export default PageFooter;
+export default PageFooter

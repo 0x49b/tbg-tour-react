@@ -1,22 +1,16 @@
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin:0;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.event-list-item{
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
+.event-list-item {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.event-list-item-header{
-    width: 100%;
-    background-color: grey;
-    padding: 7px;
-}
-
-.event-list-pill{
-    border-radius: 20px;
-    border: 1px solid red;
+.event-list-item-header {
+  background-color: grey;
+  padding: 3px;
 }

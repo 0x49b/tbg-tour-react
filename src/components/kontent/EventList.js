@@ -21,9 +21,11 @@ const EventList = () => {
   })
 
   return (
-      <ul>
-        {saisonEvents.map(event=><EventListItem details={event.item}/>)}
-      </ul>
+    <div>
+      {saisonEvents.map((event) =>
+        event.item.active ? <EventListItem details={event.item} /> : '',
+      )}
+    </div>
   )
 }
 export default EventList
